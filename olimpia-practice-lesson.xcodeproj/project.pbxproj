@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC5ECE5237470B200F5EEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */; };
+		FCC5ECE7237470B200F5EEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */; };
+		FCC5ECE9237470B200F5EEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE8237470B200F5EEF7 /* ViewController.swift */; };
+		FCC5ECEC237470B200F5EEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC5ECEA237470B200F5EEF7 /* Main.storyboard */; };
+		FCC5ECEE237470B600F5EEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC5ECED237470B600F5EEF7 /* Assets.xcassets */; };
+		FCC5ECF1237470B600F5EEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC5ECEF237470B600F5EEF7 /* LaunchScreen.storyboard */; };
+		FCC5ECFC237470B700F5EEF7 /* olimpia_practice_lessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECFB237470B700F5EEF7 /* olimpia_practice_lessonTests.swift */; };
+		FCC5ED07237470F700F5EEF7 /* BklynLibraryInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */; };
+		FCC5ED0A2374711400F5EEF7 /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ED082374711400F5EEF7 /* LibraryModel.swift */; };
+		FCC5ED0B2374711400F5EEF7 /* LocationGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ED092374711400F5EEF7 /* LocationGetter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC5ECF8237470B700F5EEF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC5ECD9237470B100F5EEF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC5ECE0237470B100F5EEF7;
+			remoteInfo = "olimpia-practice-lesson";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC5ECE1237470B100F5EEF7 /* olimpia-practice-lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "olimpia-practice-lesson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCC5ECE8237470B200F5EEF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC5ECEB237470B200F5EEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC5ECED237470B600F5EEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC5ECF0237470B600F5EEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC5ECF2237470B700F5EEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC5ECF7237470B700F5EEF7 /* olimpia-practice-lessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "olimpia-practice-lessonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC5ECFB237470B700F5EEF7 /* olimpia_practice_lessonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olimpia_practice_lessonTests.swift; sourceTree = "<group>"; };
+		FCC5ECFD237470B700F5EEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BklynLibraryInfo.json; sourceTree = "<group>"; };
+		FCC5ED082374711400F5EEF7 /* LibraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryModel.swift; sourceTree = "<group>"; };
+		FCC5ED092374711400F5EEF7 /* LocationGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationGetter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC5ECDE237470B100F5EEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC5ECF4237470B700F5EEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC5ECD8237470B100F5EEF7 = {
+			isa = PBXGroup;
+			children = (
+				FCC5ECE3237470B100F5EEF7 /* olimpia-practice-lesson */,
+				FCC5ECFA237470B700F5EEF7 /* olimpia-practice-lessonTests */,
+				FCC5ECE2237470B100F5EEF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC5ECE2237470B100F5EEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5ECE1237470B100F5EEF7 /* olimpia-practice-lesson.app */,
+				FCC5ECF7237470B700F5EEF7 /* olimpia-practice-lessonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC5ECE3237470B100F5EEF7 /* olimpia-practice-lesson */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */,
+				FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */,
+				FCC5ECE8237470B200F5EEF7 /* ViewController.swift */,
+				FCC5ED082374711400F5EEF7 /* LibraryModel.swift */,
+				FCC5ED092374711400F5EEF7 /* LocationGetter.swift */,
+				FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */,
+				FCC5ECEA237470B200F5EEF7 /* Main.storyboard */,
+				FCC5ECED237470B600F5EEF7 /* Assets.xcassets */,
+				FCC5ECEF237470B600F5EEF7 /* LaunchScreen.storyboard */,
+				FCC5ECF2237470B700F5EEF7 /* Info.plist */,
+			);
+			path = "olimpia-practice-lesson";
+			sourceTree = "<group>";
+		};
+		FCC5ECFA237470B700F5EEF7 /* olimpia-practice-lessonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5ECFB237470B700F5EEF7 /* olimpia_practice_lessonTests.swift */,
+				FCC5ECFD237470B700F5EEF7 /* Info.plist */,
+			);
+			path = "olimpia-practice-lessonTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC5ECE0237470B100F5EEF7 /* olimpia-practice-lesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC5ED00237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lesson" */;
+			buildPhases = (
+				FCC5ECDD237470B100F5EEF7 /* Sources */,
+				FCC5ECDE237470B100F5EEF7 /* Frameworks */,
+				FCC5ECDF237470B100F5EEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "olimpia-practice-lesson";
+			productName = "olimpia-practice-lesson";
+			productReference = FCC5ECE1237470B100F5EEF7 /* olimpia-practice-lesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC5ECF6237470B700F5EEF7 /* olimpia-practice-lessonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC5ED03237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lessonTests" */;
+			buildPhases = (
+				FCC5ECF3237470B700F5EEF7 /* Sources */,
+				FCC5ECF4237470B700F5EEF7 /* Frameworks */,
+				FCC5ECF5237470B700F5EEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC5ECF9237470B700F5EEF7 /* PBXTargetDependency */,
+			);
+			name = "olimpia-practice-lessonTests";
+			productName = "olimpia-practice-lessonTests";
+			productReference = FCC5ECF7237470B700F5EEF7 /* olimpia-practice-lessonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC5ECD9237470B100F5EEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Levi Davis";
+				TargetAttributes = {
+					FCC5ECE0237470B100F5EEF7 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					FCC5ECF6237470B700F5EEF7 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = FCC5ECE0237470B100F5EEF7;
+					};
+				};
+			};
+			buildConfigurationList = FCC5ECDC237470B100F5EEF7 /* Build configuration list for PBXProject "olimpia-practice-lesson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC5ECD8237470B100F5EEF7;
+			productRefGroup = FCC5ECE2237470B100F5EEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC5ECE0237470B100F5EEF7 /* olimpia-practice-lesson */,
+				FCC5ECF6237470B700F5EEF7 /* olimpia-practice-lessonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC5ECDF237470B100F5EEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5ECF1237470B600F5EEF7 /* LaunchScreen.storyboard in Resources */,
+				FCC5ECEE237470B600F5EEF7 /* Assets.xcassets in Resources */,
+				FCC5ED07237470F700F5EEF7 /* BklynLibraryInfo.json in Resources */,
+				FCC5ECEC237470B200F5EEF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC5ECF5237470B700F5EEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC5ECDD237470B100F5EEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5ECE9237470B200F5EEF7 /* ViewController.swift in Sources */,
+				FCC5ECE5237470B200F5EEF7 /* AppDelegate.swift in Sources */,
+				FCC5ED0B2374711400F5EEF7 /* LocationGetter.swift in Sources */,
+				FCC5ECE7237470B200F5EEF7 /* SceneDelegate.swift in Sources */,
+				FCC5ED0A2374711400F5EEF7 /* LibraryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC5ECF3237470B700F5EEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5ECFC237470B700F5EEF7 /* olimpia_practice_lessonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC5ECF9237470B700F5EEF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC5ECE0237470B100F5EEF7 /* olimpia-practice-lesson */;
+			targetProxy = FCC5ECF8237470B700F5EEF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC5ECEA237470B200F5EEF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC5ECEB237470B200F5EEF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC5ECEF237470B600F5EEF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC5ECF0237470B600F5EEF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC5ECFE237470B700F5EEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC5ECFF237470B700F5EEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC5ED01237470B700F5EEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "olimpia-practice-lesson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-example.olimpia-practice-lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC5ED02237470B700F5EEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "olimpia-practice-lesson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-example.olimpia-practice-lesson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCC5ED04237470B700F5EEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "olimpia-practice-lessonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-example.olimpia-practice-lessonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olimpia-practice-lesson.app/olimpia-practice-lesson";
+			};
+			name = Debug;
+		};
+		FCC5ED05237470B700F5EEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "olimpia-practice-lessonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-example.olimpia-practice-lessonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olimpia-practice-lesson.app/olimpia-practice-lesson";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC5ECDC237470B100F5EEF7 /* Build configuration list for PBXProject "olimpia-practice-lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC5ECFE237470B700F5EEF7 /* Debug */,
+				FCC5ECFF237470B700F5EEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC5ED00237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC5ED01237470B700F5EEF7 /* Debug */,
+				FCC5ED02237470B700F5EEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC5ED03237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lessonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC5ED04237470B700F5EEF7 /* Debug */,
+				FCC5ED05237470B700F5EEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC5ECD9237470B100F5EEF7 /* Project object */;
+}
