@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88FA345D06AAE0327E9ACFD7 /* Pods_olimpia_practice_lesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E57BC235A42F1246467130 /* Pods_olimpia_practice_lesson.framework */; };
+		95BF02B2C23EE9C7398E4E4A /* Pods_olimpia_practice_lessonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4AAACD245789A377586D77 /* Pods_olimpia_practice_lessonTests.framework */; };
 		FCC5ECE5237470B200F5EEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */; };
 		FCC5ECE7237470B200F5EEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */; };
 		FCC5ECE9237470B200F5EEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ECE8237470B200F5EEF7 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		FCC5ED07237470F700F5EEF7 /* BklynLibraryInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */; };
 		FCC5ED0A2374711400F5EEF7 /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ED082374711400F5EEF7 /* LibraryModel.swift */; };
 		FCC5ED0B2374711400F5EEF7 /* LocationGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ED092374711400F5EEF7 /* LocationGetter.swift */; };
+		FCC5ED0D237476C000F5EEF7 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5ED0C237476C000F5EEF7 /* LibraryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BB5B44F9AC41DC1FF76985 /* Pods-olimpia-practice-lessonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimpia-practice-lessonTests.release.xcconfig"; path = "Target Support Files/Pods-olimpia-practice-lessonTests/Pods-olimpia-practice-lessonTests.release.xcconfig"; sourceTree = "<group>"; };
+		114AB65F368C38F7556DABDC /* Pods-olimpia-practice-lesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimpia-practice-lesson.release.xcconfig"; path = "Target Support Files/Pods-olimpia-practice-lesson/Pods-olimpia-practice-lesson.release.xcconfig"; sourceTree = "<group>"; };
+		478415C4843641A55A315690 /* Pods-olimpia-practice-lesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimpia-practice-lesson.debug.xcconfig"; path = "Target Support Files/Pods-olimpia-practice-lesson/Pods-olimpia-practice-lesson.debug.xcconfig"; sourceTree = "<group>"; };
+		56E57BC235A42F1246467130 /* Pods_olimpia_practice_lesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_olimpia_practice_lesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4AAACD245789A377586D77 /* Pods_olimpia_practice_lessonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_olimpia_practice_lessonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8070685E515FB083AA25614C /* Pods-olimpia-practice-lessonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimpia-practice-lessonTests.debug.xcconfig"; path = "Target Support Files/Pods-olimpia-practice-lessonTests/Pods-olimpia-practice-lessonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC5ECE1237470B100F5EEF7 /* olimpia-practice-lesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "olimpia-practice-lesson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +53,7 @@
 		FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BklynLibraryInfo.json; sourceTree = "<group>"; };
 		FCC5ED082374711400F5EEF7 /* LibraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryModel.swift; sourceTree = "<group>"; };
 		FCC5ED092374711400F5EEF7 /* LocationGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationGetter.swift; sourceTree = "<group>"; };
+		FCC5ED0C237476C000F5EEF7 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FA345D06AAE0327E9ACFD7 /* Pods_olimpia_practice_lesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BF02B2C23EE9C7398E4E4A /* Pods_olimpia_practice_lessonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BB2FE073836BFF064513201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E57BC235A42F1246467130 /* Pods_olimpia_practice_lesson.framework */,
+				7F4AAACD245789A377586D77 /* Pods_olimpia_practice_lessonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2AD661B7CED7D69F22F3B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				478415C4843641A55A315690 /* Pods-olimpia-practice-lesson.debug.xcconfig */,
+				114AB65F368C38F7556DABDC /* Pods-olimpia-practice-lesson.release.xcconfig */,
+				8070685E515FB083AA25614C /* Pods-olimpia-practice-lessonTests.debug.xcconfig */,
+				01BB5B44F9AC41DC1FF76985 /* Pods-olimpia-practice-lessonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FCC5ECD8237470B100F5EEF7 = {
 			isa = PBXGroup;
 			children = (
 				FCC5ECE3237470B100F5EEF7 /* olimpia-practice-lesson */,
 				FCC5ECFA237470B700F5EEF7 /* olimpia-practice-lessonTests */,
 				FCC5ECE2237470B100F5EEF7 /* Products */,
+				E2AD661B7CED7D69F22F3B6D /* Pods */,
+				1BB2FE073836BFF064513201 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +122,7 @@
 				FCC5ECE4237470B200F5EEF7 /* AppDelegate.swift */,
 				FCC5ECE6237470B200F5EEF7 /* SceneDelegate.swift */,
 				FCC5ECE8237470B200F5EEF7 /* ViewController.swift */,
+				FCC5ED0C237476C000F5EEF7 /* LibraryTableViewCell.swift */,
 				FCC5ED082374711400F5EEF7 /* LibraryModel.swift */,
 				FCC5ED092374711400F5EEF7 /* LocationGetter.swift */,
 				FCC5ED06237470F700F5EEF7 /* BklynLibraryInfo.json */,
@@ -115,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCC5ED00237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lesson" */;
 			buildPhases = (
+				CB2C6132CB12AFD3A8F1C967 /* [CP] Check Pods Manifest.lock */,
 				FCC5ECDD237470B100F5EEF7 /* Sources */,
 				FCC5ECDE237470B100F5EEF7 /* Frameworks */,
 				FCC5ECDF237470B100F5EEF7 /* Resources */,
+				B4FA634CC3D6822F84EB4049 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCC5ED03237470B700F5EEF7 /* Build configuration list for PBXNativeTarget "olimpia-practice-lessonTests" */;
 			buildPhases = (
+				B41CB19FEA0EBB7BC385177D /* [CP] Check Pods Manifest.lock */,
 				FCC5ECF3237470B700F5EEF7 /* Sources */,
 				FCC5ECF4237470B700F5EEF7 /* Frameworks */,
 				FCC5ECF5237470B700F5EEF7 /* Resources */,
@@ -205,6 +243,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B41CB19FEA0EBB7BC385177D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-olimpia-practice-lessonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FA634CC3D6822F84EB4049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-olimpia-practice-lesson/Pods-olimpia-practice-lesson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-olimpia-practice-lesson/Pods-olimpia-practice-lesson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-olimpia-practice-lesson/Pods-olimpia-practice-lesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB2C6132CB12AFD3A8F1C967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-olimpia-practice-lesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCC5ECDD237470B100F5EEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -215,6 +317,7 @@
 				FCC5ED0B2374711400F5EEF7 /* LocationGetter.swift in Sources */,
 				FCC5ECE7237470B200F5EEF7 /* SceneDelegate.swift in Sources */,
 				FCC5ED0A2374711400F5EEF7 /* LibraryModel.swift in Sources */,
+				FCC5ED0D237476C000F5EEF7 /* LibraryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +475,7 @@
 		};
 		FCC5ED01237470B700F5EEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478415C4843641A55A315690 /* Pods-olimpia-practice-lesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +493,7 @@
 		};
 		FCC5ED02237470B700F5EEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114AB65F368C38F7556DABDC /* Pods-olimpia-practice-lesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +511,7 @@
 		};
 		FCC5ED04237470B700F5EEF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8070685E515FB083AA25614C /* Pods-olimpia-practice-lessonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -427,6 +533,7 @@
 		};
 		FCC5ED05237470B700F5EEF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BB5B44F9AC41DC1FF76985 /* Pods-olimpia-practice-lessonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

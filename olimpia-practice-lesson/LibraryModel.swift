@@ -43,5 +43,3 @@ class LibraryWrapper: NSObject, Codable, MKAnnotation {
     }
         
     }
-
-
